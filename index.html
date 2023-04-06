@@ -535,10 +535,13 @@
                     
 
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-next">
-                    </div>
-                    <div class="swiper-button-prev">
-                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- !next / prev arrows -->
+                    
+                    <!-- pagination dots -->
+                    <div class="swiper-pagination"></div>
+                    <!-- !pagination dots -->
 
                 
 
@@ -574,26 +577,28 @@
                         </div>
 
                     </div>
-                    <form action="" class="contact__form grid">
+                    <form action="https://formsubmit.co/remaveerannagowda@gmail.com" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name = "Contact"class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" name = "Email" class="contact__input">
                             </div>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="Text" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
+                            <button type="submit" class="button button--flex">Send Message
                                 <i class = "uil uil-message button__icon"></i>
-                            </a>
+                            </button>
+                            
+                                
+                            
                         </div>
 
                     </form>
